@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Letter/envelope icon -->
+  <rect x="4" y="8" width="24" height="17" rx="2" fill="#FFFFFF" stroke="#2C3E50" stroke-width="2.5"/>
+  <polyline points="4,8 16,18 28,8" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="4" y1="25" x2="12" y2="17" stroke="#2C3E50" stroke-width="1.5"/>
+  <line x1="28" y1="25" x2="20" y2="17" stroke="#2C3E50" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,33 @@
+<!-- Enveloppe administrative française fermée, cachet CONFIDENTIEL. 80×60px, style officiel-absurde -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60" width="80" height="60">
+  <defs>
+    <linearGradient id="envBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F0E8D8"/>
+    </linearGradient>
+  </defs>
+  <!-- Envelope body -->
+  <rect width="80" height="60" rx="4" fill="url(#envBody)" stroke="#C8B89A" stroke-width="2"/>
+  <!-- Flap fold lines (suggesting sealed top) -->
+  <path d="M0 0 L40 28 L80 0" fill="#EDE0C8" stroke="#C8B89A" stroke-width="1.5"/>
+  <!-- Envelope fold crease lines -->
+  <line x1="0" y1="60" x2="40" y2="36" stroke="#D4C4AC" stroke-width="1.5"/>
+  <line x1="80" y1="60" x2="40" y2="36" stroke="#D4C4AC" stroke-width="1.5"/>
+  <!-- Sealing triangle at center of flap -->
+  <path d="M28 20 L40 30 L52 20" fill="#DDD0B8" stroke="#C8B89A" stroke-width="1"/>
+  <!-- Stamp/seal top-right corner — République Française style -->
+  <g transform="translate(52 6)">
+    <rect width="22" height="16" rx="2" fill="#3498DB" stroke="#2175A5" stroke-width="1"/>
+    <text x="11" y="9" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="5" font-weight="bold">R.F.</text>
+    <text x="11" y="14" text-anchor="middle" fill="#D4EEFF" font-family="sans-serif" font-size="4">FRANCE</text>
+  </g>
+  <!-- Address lines (placeholder) -->
+  <rect x="6" y="36" width="40" height="3" rx="1" fill="#D0C8B8"/>
+  <rect x="6" y="42" width="32" height="3" rx="1" fill="#D0C8B8"/>
+  <rect x="6" y="48" width="36" height="3" rx="1" fill="#D0C8B8"/>
+  <!-- CONFIDENTIEL diagonal stamp -->
+  <g transform="translate(10 20) rotate(-25)">
+    <rect x="-32" y="-8" width="64" height="18" rx="3" fill="none" stroke="#E74C3C" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="0" y="6" text-anchor="middle" fill="#E74C3C" font-family="sans-serif" font-size="9" font-weight="bold" letter-spacing="1" opacity="0.85">CONFIDENTIEL</text>
+  </g>
+</svg>

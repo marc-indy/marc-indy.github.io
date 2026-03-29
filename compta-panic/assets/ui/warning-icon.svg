@@ -1,0 +1,10 @@
+<!-- Warning icon — triangle jaune avec point d'exclamation. 16×16 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- Triangle background -->
+  <path d="M8 1 L15 14 L1 14 Z" fill="#F1C40F" stroke="#E67E22" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Inner lighter triangle -->
+  <path d="M8 4 L13 13 L3 13 Z" fill="#F5D657" opacity="0.4"/>
+  <!-- Exclamation mark -->
+  <rect x="7" y="5.5" width="2" height="4.5" rx="1" fill="#2C3E50"/>
+  <circle cx="8" cy="12" r="1" fill="#2C3E50"/>
+</svg>

@@ -1,0 +1,34 @@
+<!-- Bouton Mode Survie — réveil vintage rouge, texte digital. 200×56 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" width="200" height="56">
+  <defs>
+    <linearGradient id="survClock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E74C3C"/>
+      <stop offset="1" stop-color="#C0392B"/>
+    </linearGradient>
+    <filter id="survShadow" x="-5%" y="-10%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#2C3E50" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#survShadow)">
+    <!-- Clock body (rounded rectangle, vintage alarm shape) -->
+    <rect x="4" y="6" width="192" height="44" rx="14" fill="url(#survClock)" stroke="#922B21" stroke-width="2"/>
+    <!-- Clock bells (vintage twin bell alarm) -->
+    <circle cx="40" cy="8" r="10" fill="#C0392B" stroke="#922B21" stroke-width="1.5"/>
+    <circle cx="160" cy="8" r="10" fill="#C0392B" stroke="#922B21" stroke-width="1.5"/>
+    <!-- Bell hammer -->
+    <rect x="92" y="0" width="16" height="4" rx="2" fill="#922B21"/>
+    <circle cx="100" cy="0" r="3" fill="#7A2219"/>
+    <!-- Clock face (inner circle) -->
+    <rect x="24" y="14" width="60" height="30" rx="8" fill="#1A1A1A" opacity="0.4"/>
+    <!-- Digital time display -->
+    <text x="54" y="35" text-anchor="middle" font-family="Courier Prime, monospace" font-size="16" font-weight="bold" fill="#FF6B6B">00:00</text>
+    <!-- Text: Mode Survie -->
+    <text x="136" y="34" text-anchor="middle" font-family="Courier Prime, monospace" font-size="13" font-weight="bold" fill="#FFFFFF" letter-spacing="0.5">Mode Survie</text>
+    <!-- Small clock detail dots -->
+    <circle cx="30" cy="19" r="1" fill="#FF6B6B" opacity="0.6"/>
+    <circle cx="78" cy="19" r="1" fill="#FF6B6B" opacity="0.6"/>
+    <!-- Alarm legs -->
+    <rect x="26" y="50" width="6" height="6" rx="1" fill="#922B21" transform="rotate(-15 29 53)"/>
+    <rect x="168" y="50" width="6" height="6" rx="1" fill="#922B21" transform="rotate(15 171 53)"/>
+  </g>
+</svg>

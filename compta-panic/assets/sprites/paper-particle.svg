@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- Small paper scrap for particle effects -->
+  <path d="M2,2 L13,1 L14,13 L3,14 Z" fill="#FFFFFF" stroke="#E0D8C8" stroke-width="1"/>
+  <line x1="5" y1="5" x2="11" y2="5" stroke="#E8E4DC" stroke-width="0.5"/>
+  <line x1="5" y1="8" x2="10" y2="8" stroke="#E8E4DC" stroke-width="0.5"/>
+</svg>

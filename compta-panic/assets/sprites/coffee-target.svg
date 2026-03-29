@@ -1,0 +1,68 @@
+<!-- Vue du dessus d'une tasse de café. 3 cercles concentriques vert/jaune/rouge (target). 160×160px mini-jeu -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <radialGradient id="saucerGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#E8D8A0"/>
+      <stop offset="80%" stop-color="#D4C090"/>
+      <stop offset="100%" stop-color="#C0A870"/>
+    </radialGradient>
+    <radialGradient id="coffeeSurface" cx="45%" cy="40%" r="55%">
+      <stop offset="0" stop-color="#5D3A1A"/>
+      <stop offset="60%" stop-color="#3E2108"/>
+      <stop offset="100%" stop-color="#2A1400"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Saucer outer -->
+  <ellipse cx="80" cy="80" rx="76" ry="76" fill="url(#saucerGrad)" stroke="#A89060" stroke-width="2"/>
+  <!-- Saucer rim detail -->
+  <ellipse cx="80" cy="80" rx="70" ry="70" fill="none" stroke="#C8B080" stroke-width="1.5"/>
+  <!-- Saucer inner well -->
+  <ellipse cx="80" cy="80" rx="60" ry="60" fill="#D0B880" stroke="#B89860" stroke-width="1.5"/>
+
+  <!-- Cup rim -->
+  <ellipse cx="80" cy="80" rx="56" ry="56" fill="#C8A060" stroke="#A08048" stroke-width="2"/>
+  <!-- Cup wall thickness -->
+  <ellipse cx="80" cy="80" rx="50" ry="50" fill="#B89050"/>
+  <!-- Coffee surface circle -->
+  <ellipse cx="80" cy="80" rx="46" ry="46" fill="url(#coffeeSurface)"/>
+
+  <!-- CROSSHAIR TARGET RINGS — scoring zones -->
+  <!-- Outer ring: RED (miss zone) -->
+  <circle cx="80" cy="80" r="44" fill="none" stroke="#E74C3C" stroke-width="5" opacity="0.85"/>
+  <!-- Ticks on outer ring -->
+  <line x1="80" y1="34" x2="80" y2="40" stroke="#E74C3C" stroke-width="2"/>
+  <line x1="80" y1="120" x2="80" y2="126" stroke="#E74C3C" stroke-width="2"/>
+  <line x1="34" y1="80" x2="40" y2="80" stroke="#E74C3C" stroke-width="2"/>
+  <line x1="120" y1="80" x2="126" y2="80" stroke="#E74C3C" stroke-width="2"/>
+
+  <!-- Middle ring: YELLOW (okay zone) -->
+  <circle cx="80" cy="80" r="28" fill="none" stroke="#F1C40F" stroke-width="5" opacity="0.9"/>
+  <line x1="80" y1="50" x2="80" y2="56" stroke="#F1C40F" stroke-width="2"/>
+  <line x1="80" y1="104" x2="80" y2="110" stroke="#F1C40F" stroke-width="2"/>
+  <line x1="50" y1="80" x2="56" y2="80" stroke="#F1C40F" stroke-width="2"/>
+  <line x1="104" y1="80" x2="110" y2="80" stroke="#F1C40F" stroke-width="2"/>
+
+  <!-- Inner ring: GREEN (perfect zone) -->
+  <circle cx="80" cy="80" r="14" fill="none" stroke="#27AE60" stroke-width="5" opacity="0.9"/>
+  <line x1="80" y1="64" x2="80" y2="68" stroke="#27AE60" stroke-width="2"/>
+  <line x1="80" y1="92" x2="80" y2="96" stroke="#27AE60" stroke-width="2"/>
+  <line x1="64" y1="80" x2="68" y2="80" stroke="#27AE60" stroke-width="2"/>
+  <line x1="92" y1="80" x2="96" y2="80" stroke="#27AE60" stroke-width="2"/>
+
+  <!-- Bullseye center -->
+  <circle cx="80" cy="80" r="5" fill="#F1C40F" stroke="#C09000" stroke-width="1.5"/>
+  <circle cx="80" cy="80" r="2" fill="#E74C3C"/>
+
+  <!-- Crosshair lines -->
+  <line x1="80" y1="36" x2="80" y2="124" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="36" y1="80" x2="124" y2="80" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+
+  <!-- Coffee crema highlight -->
+  <path d="M55 68 C65 58 100 60 106 72" fill="none" stroke="#7A4A20" stroke-width="2" opacity="0.5"/>
+
+  <!-- Zone labels -->
+  <text x="80" y="22" text-anchor="middle" fill="#E74C3C" font-family="sans-serif" font-size="9" font-weight="bold" opacity="0.9">RATÉ</text>
+  <text x="80" y="49" text-anchor="middle" fill="#F1C40F" font-family="sans-serif" font-size="8" font-weight="bold" opacity="0.9">BON</text>
+  <text x="80" y="65" text-anchor="middle" fill="#27AE60" font-family="sans-serif" font-size="8" font-weight="bold" opacity="0.9">PARFAIT</text>
+</svg>

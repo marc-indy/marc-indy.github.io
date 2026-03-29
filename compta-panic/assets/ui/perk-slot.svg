@@ -1,0 +1,33 @@
+<!-- Perk slot — cadre arrondi avec bordure pointillée, icône cadenas quand verrouillé. 80×80 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="perkSlotBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F4EEE0"/>
+    </linearGradient>
+    <filter id="perkSlotShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#2C3E50" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <g filter="url(#perkSlotShadow)">
+    <!-- Outer frame -->
+    <rect x="4" y="4" width="72" height="72" rx="12" fill="url(#perkSlotBg)" stroke="#95A5A6" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <!-- Inner area -->
+    <rect x="10" y="10" width="60" height="60" rx="8" fill="#FFFFFF" opacity="0.5"/>
+    <!-- Lock icon (centered, for locked state — Builder hides when unlocked) -->
+    <g transform="translate(28 22)" opacity="0.4">
+      <!-- Lock body -->
+      <rect x="2" y="14" width="20" height="16" rx="3" fill="#95A5A6" stroke="#7F8C8D" stroke-width="1.5"/>
+      <!-- Lock shackle -->
+      <path d="M6 14 V8 C6 2 18 2 18 8 V14" fill="none" stroke="#95A5A6" stroke-width="3" stroke-linecap="round"/>
+      <!-- Keyhole -->
+      <circle cx="12" cy="22" r="2.5" fill="#7F8C8D"/>
+      <rect x="11" y="22" width="2" height="4" rx="0.5" fill="#7F8C8D"/>
+    </g>
+    <!-- Corner accents -->
+    <circle cx="12" cy="12" r="2" fill="#95A5A6" opacity="0.2"/>
+    <circle cx="68" cy="12" r="2" fill="#95A5A6" opacity="0.2"/>
+    <circle cx="12" cy="68" r="2" fill="#95A5A6" opacity="0.2"/>
+    <circle cx="68" cy="68" r="2" fill="#95A5A6" opacity="0.2"/>
+  </g>
+</svg>

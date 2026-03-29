@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" width="320" height="48">
+  <defs>
+    <linearGradient id="headerBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7EC2F4"/>
+      <stop offset="1" stop-color="#4582B7"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="0" width="312" height="48" rx="16" fill="url(#headerBlue)"/>
+  <rect x="4" y="14" width="312" height="34" fill="url(#headerBlue)"/>
+  <path d="M20 11 H118" stroke="#DFF4FF" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+  <path d="M18 39 H302" stroke="#2D6597" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+  <circle cx="30" cy="24" r="8" fill="#CDEBFF" opacity="0.75"/>
+  <path d="M278 12 L294 12" stroke="#DFF4FF" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <text x="166" y="31" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="2.2">INHABITUEL</text>
+</svg>

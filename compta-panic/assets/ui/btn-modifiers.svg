@@ -1,0 +1,21 @@
+<!-- Bouton Modificateurs — tampon rouge "DÉFI". 180×40 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" width="180" height="40">
+  <defs>
+    <filter id="modShadow" x="-5%" y="-10%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#2C3E50" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#modShadow)" transform="rotate(-2 90 20)">
+    <!-- Stamp outer border -->
+    <rect x="4" y="2" width="172" height="36" rx="4" fill="none" stroke="#C0392B" stroke-width="3" stroke-dasharray="6,2" opacity="0.8"/>
+    <!-- Inner border -->
+    <rect x="10" y="6" width="160" height="28" rx="2" fill="#C0392B" opacity="0.08"/>
+    <rect x="10" y="6" width="160" height="28" rx="2" fill="none" stroke="#C0392B" stroke-width="1.5" opacity="0.5"/>
+    <!-- Text: DÉFI (bold stamp text) -->
+    <text x="90" y="27" text-anchor="middle" font-family="Courier Prime, monospace" font-size="18" font-weight="bold" fill="#C0392B" letter-spacing="6" opacity="0.85">DÉFI</text>
+    <!-- Stamp imperfections (worn look) -->
+    <circle cx="30" cy="14" r="3" fill="#C0392B" opacity="0.06"/>
+    <circle cx="150" cy="28" r="4" fill="#C0392B" opacity="0.04"/>
+    <circle cx="80" cy="8" r="2" fill="#C0392B" opacity="0.05"/>
+  </g>
+</svg>

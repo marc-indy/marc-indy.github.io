@@ -1,0 +1,37 @@
+<!-- Statuette de bureau — trophée "Meilleur Comptable". 30×45 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 45" width="30" height="45">
+  <defs>
+    <linearGradient id="trophyGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD700"/>
+      <stop offset="0.5" stop-color="#DAA520"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="trophyBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5D4037"/>
+      <stop offset="1" stop-color="#3E2723"/>
+    </linearGradient>
+  </defs>
+  <!-- Shadow -->
+  <ellipse cx="15" cy="44" rx="10" ry="2" fill="#2C3E50" opacity="0.12"/>
+  <!-- Wooden base -->
+  <rect x="4" y="36" width="22" height="7" rx="2" fill="url(#trophyBase)" stroke="#2C1810" stroke-width="1"/>
+  <!-- Base plate (gold) -->
+  <rect x="7" y="38" width="16" height="3" rx="1" fill="#DAA520" opacity="0.6"/>
+  <!-- Trophy stem -->
+  <rect x="12" y="26" width="6" height="12" rx="1" fill="url(#trophyGold)" stroke="#B8860B" stroke-width="0.8"/>
+  <!-- Trophy cup -->
+  <path d="M6 10 C6 22 10 26 15 26 C20 26 24 22 24 10 Z" fill="url(#trophyGold)" stroke="#B8860B" stroke-width="1.5"/>
+  <!-- Cup rim -->
+  <ellipse cx="15" cy="10" rx="9" ry="3" fill="#FFE44D" stroke="#B8860B" stroke-width="1"/>
+  <!-- Cup interior -->
+  <ellipse cx="15" cy="10" rx="7" ry="2" fill="#DAA520" opacity="0.5"/>
+  <!-- Cup handles -->
+  <path d="M6 14 C2 14 0 18 4 20" fill="none" stroke="#B8860B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 14 C28 14 30 18 26 20" fill="none" stroke="#B8860B" stroke-width="2" stroke-linecap="round"/>
+  <!-- Star on cup -->
+  <polygon points="15,14 16,17 19,17.5 17,19 17.5,22 15,20.5 12.5,22 13,19 11,17.5 14,17" fill="#FFF4A3" opacity="0.8"/>
+  <!-- Highlight -->
+  <path d="M10 12 L10 20" stroke="#FFFFFF" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
+  <!-- Plaque text suggestion -->
+  <text x="15" y="41" text-anchor="middle" font-family="Nunito, sans-serif" font-size="2.5" fill="#DAA520" opacity="0.8">N°1</text>
+</svg>

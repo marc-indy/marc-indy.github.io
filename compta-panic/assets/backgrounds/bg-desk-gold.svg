@@ -1,0 +1,166 @@
+<!-- Bureau doré — bureau luxueux, objets dorés, stylo premium, champagne. Milestone 305. 480×854 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 854" width="480" height="854">
+  <defs>
+    <linearGradient id="goldWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF8E7"/>
+      <stop offset="0.5" stop-color="#FFF0CC"/>
+      <stop offset="1" stop-color="#F5E6B8"/>
+    </linearGradient>
+    <linearGradient id="goldDesk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DAA520"/>
+      <stop offset="0.3" stop-color="#C08840"/>
+      <stop offset="0.6" stop-color="#DAA520"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="goldFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B6914"/>
+      <stop offset="1" stop-color="#6B5010"/>
+    </linearGradient>
+    <linearGradient id="goldShimmer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD700"/>
+      <stop offset="0.5" stop-color="#FFF4A3"/>
+      <stop offset="1" stop-color="#DAA520"/>
+    </linearGradient>
+    <filter id="goldShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#8B6914" flood-opacity="0.25"/>
+    </filter>
+    <filter id="goldGlow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#FFD700" flood-opacity="0.3"/>
+    </filter>
+    <filter id="goldSoft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8B6914" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Warm golden wall -->
+  <rect width="480" height="854" fill="#FFF8E7"/>
+  <rect width="480" height="210" fill="url(#goldWall)"/>
+  <path d="M0 168 C120 148 200 206 310 184 C380 168 440 150 480 162 L480 210 L0 210 Z" fill="#F5E6B8" opacity="0.8"/>
+
+  <!-- Gold molding -->
+  <rect y="206" width="480" height="10" fill="#DAA520" stroke="#B8860B" stroke-width="1"/>
+
+  <!-- Gold-tinted desk surface -->
+  <rect y="216" width="480" height="638" fill="url(#goldDesk)"/>
+  <rect y="216" width="480" height="638" fill="#FFF4A3" opacity="0.08"/>
+
+  <!-- Gold wood grain -->
+  <g opacity="0.15" stroke="#B8860B" stroke-width="1.5" fill="none">
+    <path d="M-20 270 C100 250 200 290 320 268 C400 254 460 260 520 278"/>
+    <path d="M-20 380 C90 352 190 410 310 388 C390 374 440 378 520 396"/>
+    <path d="M-10 520 C90 492 200 558 318 538 C390 524 450 528 520 546"/>
+    <path d="M-16 660 C80 634 180 686 306 668 C398 656 448 654 524 672"/>
+  </g>
+
+  <!-- Desk front edge -->
+  <path d="M0 790 C130 772 220 822 338 798 C406 784 448 788 480 800 L480 854 L0 854 Z" fill="url(#goldFront)"/>
+
+  <!-- === LUXURY DESK OBJECTS === -->
+
+  <!-- Premium filing cabinet (gold handles) -->
+  <g transform="translate(388 20)" filter="url(#goldShadow)">
+    <rect width="78" height="168" rx="6" fill="#2C3E50" stroke="#1A252F" stroke-width="2.5"/>
+    <rect x="8" y="14" width="62" height="30" rx="4" fill="#34495E"/>
+    <rect x="8" y="54" width="62" height="30" rx="4" fill="#34495E"/>
+    <rect x="8" y="94" width="62" height="30" rx="4" fill="#34495E"/>
+    <rect x="8" y="134" width="62" height="24" rx="4" fill="#34495E"/>
+    <!-- Gold handles -->
+    <rect x="30" y="24" width="18" height="6" rx="3" fill="url(#goldShimmer)" stroke="#B8860B" stroke-width="0.8"/>
+    <rect x="30" y="64" width="18" height="6" rx="3" fill="url(#goldShimmer)" stroke="#B8860B" stroke-width="0.8"/>
+    <rect x="30" y="104" width="18" height="6" rx="3" fill="url(#goldShimmer)" stroke="#B8860B" stroke-width="0.8"/>
+    <rect x="30" y="142" width="18" height="6" rx="3" fill="url(#goldShimmer)" stroke="#B8860B" stroke-width="0.8"/>
+  </g>
+
+  <!-- Gold-plated calculator -->
+  <g transform="translate(40 420) rotate(-6)" filter="url(#goldGlow2)">
+    <rect width="70" height="92" rx="6" fill="url(#goldShimmer)" stroke="#B8860B" stroke-width="2"/>
+    <rect x="8" y="10" width="54" height="18" rx="3" fill="#2C3E50"/>
+    <text x="58" y="24" text-anchor="end" font-family="Courier Prime, monospace" font-size="13" fill="#27AE60">999999</text>
+    <g fill="#8B6914">
+      <rect x="8" y="34" width="12" height="10" rx="2"/>
+      <rect x="24" y="34" width="12" height="10" rx="2"/>
+      <rect x="40" y="34" width="12" height="10" rx="2"/>
+      <rect x="8" y="48" width="12" height="10" rx="2"/>
+      <rect x="24" y="48" width="12" height="10" rx="2"/>
+      <rect x="40" y="48" width="12" height="10" rx="2"/>
+      <rect x="8" y="62" width="12" height="10" rx="2"/>
+      <rect x="24" y="62" width="12" height="10" rx="2"/>
+      <rect x="40" y="62" width="12" height="10" rx="2" fill="#DAA520"/>
+      <rect x="8" y="76" width="28" height="10" rx="2"/>
+      <rect x="40" y="76" width="12" height="10" rx="2" fill="#27AE60"/>
+    </g>
+  </g>
+
+  <!-- Premium luxury pen -->
+  <g transform="translate(180 640) rotate(18)" filter="url(#goldGlow2)">
+    <rect width="100" height="8" rx="4" fill="#1A1A2E" stroke="#0D0D1A" stroke-width="1"/>
+    <rect width="30" height="8" rx="4" fill="url(#goldShimmer)" stroke="#B8860B" stroke-width="0.8"/>
+    <polygon points="100,0 112,4 100,8" fill="#2C3E50"/>
+    <!-- Gold band -->
+    <rect x="28" y="0" width="4" height="8" rx="1" fill="#FFD700"/>
+    <rect x="60" y="0" width="3" height="8" rx="1" fill="#FFD700"/>
+    <!-- Nib gold -->
+    <polygon points="100,2 108,4 100,6" fill="#DAA520"/>
+  </g>
+
+  <!-- Champagne glass (half-full, golden bubbly) -->
+  <g transform="translate(340 240)" filter="url(#goldShadow)">
+    <ellipse cx="30" cy="68" rx="18" ry="5" fill="#8B6914" opacity="0.15"/>
+    <!-- Glass stem -->
+    <rect x="27" y="48" width="6" height="18" rx="1" fill="#E8E8E8" opacity="0.7"/>
+    <!-- Glass base -->
+    <ellipse cx="30" cy="66" rx="14" ry="4" fill="#E8E8E8" opacity="0.6" stroke="#CCC" stroke-width="0.8"/>
+    <!-- Glass bowl (flute shape) -->
+    <path d="M18 16 C18 40 22 48 30 48 C38 48 42 40 42 16 Z" fill="#FFF8DC" opacity="0.4" stroke="#DAA520" stroke-width="1.5"/>
+    <!-- Champagne liquid -->
+    <path d="M20 28 C20 40 24 48 30 48 C36 48 40 40 40 28 Z" fill="#FFD700" opacity="0.35"/>
+    <!-- Bubbles -->
+    <circle cx="28" cy="36" r="1.5" fill="#FFD700" opacity="0.5"/>
+    <circle cx="32" cy="32" r="1" fill="#FFD700" opacity="0.4"/>
+    <circle cx="30" cy="26" r="1.2" fill="#FFF4A3" opacity="0.5"/>
+    <circle cx="26" cy="30" r="0.8" fill="#FFF4A3" opacity="0.4"/>
+  </g>
+
+  <!-- Premium gold folders -->
+  <g transform="translate(60 260) rotate(-4)" filter="url(#goldSoft)">
+    <rect width="90" height="14" rx="3" fill="#DAA520" stroke="#B8860B" stroke-width="1.5"/>
+    <rect y="16" width="94" height="14" rx="3" fill="#B8860B" stroke="#8B6914" stroke-width="1.5"/>
+    <rect y="32" width="88" height="14" rx="3" fill="#8B6914" stroke="#6B5010" stroke-width="1.5"/>
+    <!-- Gold clasp -->
+    <rect x="70" y="4" width="12" height="8" rx="2" fill="#FFD700" opacity="0.6"/>
+    <rect x="74" y="20" width="12" height="8" rx="2" fill="#FFD700" opacity="0.5"/>
+  </g>
+
+  <!-- Gold desk phone -->
+  <g transform="translate(310 460) rotate(5)" filter="url(#goldGlow2)">
+    <rect x="0" y="22" width="84" height="32" rx="6" fill="url(#goldShimmer)" stroke="#B8860B" stroke-width="2"/>
+    <g fill="#8B6914">
+      <rect x="18" y="28" width="12" height="7" rx="2"/>
+      <rect x="34" y="28" width="12" height="7" rx="2"/>
+      <rect x="50" y="28" width="12" height="7" rx="2"/>
+      <rect x="18" y="39" width="12" height="7" rx="2"/>
+      <rect x="34" y="39" width="12" height="7" rx="2"/>
+      <rect x="50" y="39" width="12" height="7" rx="2"/>
+    </g>
+    <!-- Handset -->
+    <path d="M8 22 C8 14 16 6 24 6 L60 6 C68 6 76 14 76 22" fill="none" stroke="#B8860B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M8 22 C8 14 16 6 24 6 L60 6 C68 6 76 14 76 22" fill="none" stroke="#DAA520" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="12" cy="18" rx="8" ry="6" fill="#B8860B"/>
+    <ellipse cx="72" cy="18" rx="8" ry="6" fill="#B8860B"/>
+  </g>
+
+  <!-- Scattered gold sparkles -->
+  <g fill="#FFD700" opacity="0.3">
+    <circle cx="120" cy="350" r="2"/>
+    <circle cx="380" cy="380" r="1.5"/>
+    <circle cx="200" cy="500" r="2"/>
+    <circle cx="420" cy="550" r="1.8"/>
+    <circle cx="80" cy="600" r="1.5"/>
+    <circle cx="300" cy="700" r="2"/>
+    <circle cx="160" cy="750" r="1.2"/>
+    <circle cx="440" cy="680" r="1.8"/>
+  </g>
+
+  <!-- Golden ambient glow -->
+  <ellipse cx="240" cy="460" rx="220" ry="200" fill="#FFD700" opacity="0.04"/>
+</svg>

@@ -1,0 +1,50 @@
+<!-- Champagne — bouteille avec bouchon qui saute. 60×120 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 120" width="60" height="120">
+  <defs>
+    <linearGradient id="champBottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2D5016"/>
+      <stop offset="0.4" stop-color="#4A7A2E"/>
+      <stop offset="0.8" stop-color="#2D5016"/>
+    </linearGradient>
+    <linearGradient id="champFoil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#DAA520"/>
+    </linearGradient>
+    <filter id="champShadow" x="-15%" y="-5%" width="130%" height="110%">
+      <feDropShadow dx="1" dy="3" stdDeviation="3" flood-color="#2C3E50" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#champShadow)">
+    <!-- Cork popping away (separate layer) -->
+    <g transform="translate(22 2) rotate(-15)">
+      <rect x="0" y="0" width="10" height="14" rx="3" fill="#C9A07A" stroke="#8B6B4A" stroke-width="1"/>
+      <rect x="1" y="2" width="8" height="2" rx="1" fill="#B89468"/>
+      <rect x="1" y="6" width="8" height="2" rx="1" fill="#B89468"/>
+    </g>
+    <!-- Cork trajectory lines -->
+    <path d="M28 18 L24 8" stroke="#DAA520" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M32 16 L36 6" stroke="#DAA520" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    <!-- Fizz spray -->
+    <circle cx="28" cy="24" r="3" fill="#FFF8E7" opacity="0.7"/>
+    <circle cx="34" cy="20" r="2" fill="#FFF8E7" opacity="0.5"/>
+    <circle cx="22" cy="22" r="2.5" fill="#FFF8E7" opacity="0.6"/>
+    <circle cx="38" cy="26" r="1.5" fill="#FFF8E7" opacity="0.4"/>
+    <circle cx="20" cy="28" r="1.5" fill="#F1C40F" opacity="0.5"/>
+    <!-- Bottle neck -->
+    <rect x="24" y="28" width="12" height="24" rx="3" fill="url(#champBottle)" stroke="#1A3308" stroke-width="1.5"/>
+    <!-- Gold foil collar -->
+    <rect x="22" y="28" width="16" height="10" rx="2" fill="url(#champFoil)" stroke="#B8860B" stroke-width="1"/>
+    <line x1="24" y1="33" x2="36" y2="33" stroke="#FFD700" stroke-width="0.8" opacity="0.6"/>
+    <!-- Bottle body (wider) -->
+    <path d="M24 52 C22 56 16 62 16 72 L16 108 C16 114 20 118 30 118 C40 118 44 114 44 108 L44 72 C44 62 38 56 36 52 Z" fill="url(#champBottle)" stroke="#1A3308" stroke-width="2"/>
+    <!-- Label -->
+    <rect x="20" y="74" width="20" height="26" rx="2" fill="#FFFDF8" stroke="#DAA520" stroke-width="1.5"/>
+    <text x="30" y="84" text-anchor="middle" font-family="Nunito, sans-serif" font-size="5" font-weight="800" fill="#DAA520">BRUT</text>
+    <line x1="22" y1="88" x2="38" y2="88" stroke="#DAA520" stroke-width="0.8"/>
+    <text x="30" y="95" text-anchor="middle" font-family="Nunito, sans-serif" font-size="4" fill="#2C3E50">Champagne</text>
+    <!-- Bottle highlight -->
+    <path d="M26 56 L26 108" stroke="#FFFFFF" stroke-width="2" opacity="0.15" stroke-linecap="round"/>
+    <!-- Bottom -->
+    <ellipse cx="30" cy="116" rx="14" ry="3" fill="#1A3308" opacity="0.3"/>
+  </g>
+</svg>

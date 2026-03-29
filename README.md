@@ -1,1 +1,1 @@
-# marc-indy.github.io
+[Compta Panic](https://marc-indy.github.io/compta-panic/) is a game where you have to manage your finances and avoid going bankrupt. You can earn money by working, but you also have to pay bills and taxes. The goal is to survive as long as possible without going bankrupt.

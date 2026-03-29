@@ -1,0 +1,76 @@
+<!-- Inspecteur URSSAF — silhouette sévère, lunettes, mallette, posture rigide. 120×180 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 180" width="120" height="180">
+  <defs>
+    <linearGradient id="inspSuit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34495E"/>
+      <stop offset="1" stop-color="#2C3E50"/>
+    </linearGradient>
+    <linearGradient id="inspShirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ECF0F1"/>
+      <stop offset="1" stop-color="#D5DBDB"/>
+    </linearGradient>
+    <filter id="inspShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#2C3E50" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <g filter="url(#inspShadow)">
+    <!-- Shoes -->
+    <ellipse cx="42" cy="174" rx="14" ry="6" fill="#1A1A1A"/>
+    <ellipse cx="78" cy="174" rx="14" ry="6" fill="#1A1A1A"/>
+    <!-- Legs — dark trousers -->
+    <rect x="34" y="120" width="16" height="56" rx="4" fill="#2C3E50"/>
+    <rect x="70" y="120" width="16" height="56" rx="4" fill="#2C3E50"/>
+    <!-- Body — dark suit jacket -->
+    <path d="M30 60 C26 75 24 95 26 120 L94 120 C96 95 94 75 90 60 Z" fill="url(#inspSuit)" stroke="#1A252F" stroke-width="2"/>
+    <!-- White shirt & tie -->
+    <path d="M50 62 L60 72 L70 62" fill="url(#inspShirt)" stroke="#BDC3C7" stroke-width="1"/>
+    <rect x="57" y="68" width="6" height="36" rx="1" fill="#C0392B"/>
+    <polygon points="57,68 63,68 62,74 58,74" fill="#922B21"/>
+    <!-- Shoulders -->
+    <path d="M30 60 C22 58 16 64 18 76 L30 74 Z" fill="url(#inspSuit)" stroke="#1A252F" stroke-width="1.5"/>
+    <path d="M90 60 C98 58 104 64 102 76 L90 74 Z" fill="url(#inspSuit)" stroke="#1A252F" stroke-width="1.5"/>
+    <!-- Left arm (at side) -->
+    <path d="M18 76 C16 92 18 108 22 120" stroke="#2C3E50" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Right arm holding briefcase -->
+    <path d="M102 76 C104 92 103 108 100 126" stroke="#2C3E50" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Hand (right) -->
+    <circle cx="100" cy="126" r="6" fill="#FDDCAC"/>
+    <!-- Briefcase -->
+    <g transform="translate(82 128)">
+      <rect x="0" y="4" width="32" height="22" rx="4" fill="#5D4037" stroke="#3E2723" stroke-width="2"/>
+      <rect x="10" y="0" width="12" height="8" rx="2" fill="none" stroke="#3E2723" stroke-width="2"/>
+      <rect x="12" y="12" width="8" height="3" rx="1" fill="#DAA520"/>
+      <circle cx="16" cy="13.5" r="1.5" fill="#B8860B"/>
+    </g>
+    <!-- Neck -->
+    <rect x="52" y="48" width="16" height="14" rx="4" fill="#FDDCAC"/>
+    <!-- Head -->
+    <ellipse cx="60" cy="34" rx="22" ry="26" fill="#FDDCAC"/>
+    <!-- Hair — short, neat, grey sides -->
+    <path d="M38 30 C38 12 50 6 60 6 C70 6 82 12 82 30" fill="#4A4A4A"/>
+    <path d="M38 30 C38 26 40 24 44 26" fill="#6B6B6B"/>
+    <path d="M82 30 C82 26 80 24 76 26" fill="#6B6B6B"/>
+    <!-- Stern eyebrows -->
+    <path d="M42 26 L52 24" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+    <path d="M68 24 L78 26" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+    <!-- Rectangular glasses -->
+    <rect x="42" y="28" width="14" height="10" rx="2" fill="none" stroke="#2C3E50" stroke-width="2"/>
+    <rect x="42" y="28" width="14" height="10" rx="2" fill="#D4EEFF" opacity="0.3"/>
+    <rect x="64" y="28" width="14" height="10" rx="2" fill="none" stroke="#2C3E50" stroke-width="2"/>
+    <rect x="64" y="28" width="14" height="10" rx="2" fill="#D4EEFF" opacity="0.3"/>
+    <!-- Glasses bridge -->
+    <line x1="56" y1="33" x2="64" y2="33" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Eyes behind glasses -->
+    <circle cx="49" cy="33" r="2.5" fill="#2C3E50"/>
+    <circle cx="71" cy="33" r="2.5" fill="#2C3E50"/>
+    <circle cx="48" cy="32" r="0.8" fill="#FFFFFF"/>
+    <circle cx="70" cy="32" r="0.8" fill="#FFFFFF"/>
+    <!-- Nose — sharp -->
+    <path d="M58 36 L60 42 L56 42" fill="none" stroke="#C9A07A" stroke-width="1.2"/>
+    <!-- Stern thin mouth -->
+    <line x1="50" y1="47" x2="70" y2="47" stroke="#A0705A" stroke-width="2" stroke-linecap="round"/>
+    <!-- Furrowed brow lines -->
+    <path d="M55 22 V20" stroke="#C9A07A" stroke-width="1" opacity="0.5"/>
+    <path d="M65 22 V20" stroke="#C9A07A" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>

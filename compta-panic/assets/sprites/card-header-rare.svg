@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" width="320" height="48">
+  <defs>
+    <linearGradient id="headerPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A377E0"/>
+      <stop offset="1" stop-color="#65359C"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="0" width="312" height="48" rx="16" fill="url(#headerPurple)"/>
+  <rect x="4" y="14" width="312" height="34" fill="url(#headerPurple)"/>
+  <path d="M20 11 H114" stroke="#F1DEFF" stroke-width="3" opacity="0.42" stroke-linecap="round"/>
+  <path d="M18 39 H302" stroke="#4E267E" stroke-width="3" opacity="0.55" stroke-linecap="round"/>
+  <circle cx="30" cy="24" r="8" fill="#E3CCFF" opacity="0.72"/>
+  <path d="M289 12 L301 12" stroke="#F6E9FF" stroke-width="4" stroke-linecap="round" opacity="0.58"/>
+  <text x="164" y="31" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" letter-spacing="2.8">RARE</text>
+</svg>

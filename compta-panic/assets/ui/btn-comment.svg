@@ -1,0 +1,21 @@
+<!-- Bouton Comment Jouer — post-it jaune, écriture manuscrite. 180×48 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 48" width="180" height="48">
+  <defs>
+    <filter id="commentShadow" x="-5%" y="-10%" width="110%" height="120%">
+      <feDropShadow dx="1" dy="3" stdDeviation="2" flood-color="#2C3E50" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#commentShadow)">
+    <!-- Sticky note body -->
+    <rect x="2" y="2" width="176" height="44" rx="3" fill="#F1C94B" stroke="#D7A92F" stroke-width="1.5"/>
+    <!-- Peel corner -->
+    <path d="M142 46 L178 46 L178 14 Z" fill="#D9A928"/>
+    <path d="M142 46 L142 14 L178 14" fill="#F1C94B" stroke="#D7A92F" stroke-width="0.8"/>
+    <!-- Sticky top adhesive strip -->
+    <rect x="2" y="2" width="176" height="8" rx="3" fill="#D7A92F" opacity="0.3"/>
+    <!-- Text: Comment Jouer (handwriting style) -->
+    <text x="80" y="32" text-anchor="middle" font-family="Fredoka One, cursive, sans-serif" font-size="14" font-weight="800" fill="#2C3E50">Comment Jouer</text>
+    <!-- Question mark doodle -->
+    <text x="154" y="34" font-family="Fredoka One, cursive, sans-serif" font-size="18" fill="#7B5B15" opacity="0.35">?</text>
+  </g>
+</svg>

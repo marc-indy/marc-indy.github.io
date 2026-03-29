@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="coinGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE28A"/>
+      <stop offset="1" stop-color="#E0AA0C"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="12.5" cy="18.5" rx="8.5" ry="3" fill="#2C3E50" opacity="0.14"/>
+  <ellipse cx="10.5" cy="9.5" rx="6.5" ry="2.8" fill="#EFC83E" stroke="#B98707" stroke-width="1.5"/>
+  <path d="M4 9.5 V14 C4 15.8 6.9 17.3 10.5 17.3 C14.1 17.3 17 15.8 17 14 V9.5" fill="#EFC83E" stroke="#B98707" stroke-width="1.5"/>
+  <ellipse cx="10.5" cy="14" rx="6.5" ry="2.8" fill="#DCA61C" stroke="#B98707" stroke-width="1.5"/>
+  <circle cx="15.5" cy="12" r="5.5" fill="url(#coinGold)" stroke="#B98707" stroke-width="1.5"/>
+  <path d="M14.1 9.6 H16.6 C17.3 9.6 17.9 10.1 17.9 10.8 C17.9 11.6 17.3 12 15.7 12 C14.1 12 13.5 12.5 13.5 13.3 C13.5 14 14.1 14.4 14.8 14.4 H17.1" fill="none" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M15.6 8.6 V15.4" stroke="#2C3E50" stroke-width="1.4" stroke-linecap="round"/>
+</svg>

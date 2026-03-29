@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" width="320" height="48">
+  <defs>
+    <linearGradient id="goldShimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E6A80C"/>
+      <stop offset="0.26" stop-color="#FFD95E"/>
+      <stop offset="0.5" stop-color="#FFF4A3"/>
+      <stop offset="0.74" stop-color="#FFD95E"/>
+      <stop offset="1" stop-color="#E6A80C"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="0" width="312" height="48" rx="16" fill="url(#goldShimmer)"/>
+  <rect x="4" y="14" width="312" height="34" fill="url(#goldShimmer)"/>
+  <path d="M18 10 H120" stroke="#FFF6D4" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+  <path d="M18 39 H302" stroke="#B98607" stroke-width="3" opacity="0.55" stroke-linecap="round"/>
+  <circle cx="32" cy="24" r="8" fill="#FFF8E7" opacity="0.8"/>
+  <path d="M284 11 H298" stroke="#FFF6D4" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
+  <path d="M245 17 L248 22 L254 22 L249 26 L251 31 L245 28 L239 31 L241 26 L236 22 L242 22 Z" fill="#FFFDF4" opacity="0.85"/>
+  <text x="164" y="31" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" font-weight="900" fill="#2C3E50" letter-spacing="2.3">LEGENDAIRE</text>
+</svg>

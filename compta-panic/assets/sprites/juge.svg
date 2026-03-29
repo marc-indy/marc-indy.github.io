@@ -1,0 +1,73 @@
+<!-- Juge — robe noire, marteau, perruque style judiciaire français. 140×200 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 200" width="140" height="200">
+  <defs>
+    <linearGradient id="jugeRobe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1A1A"/>
+      <stop offset="1" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <linearGradient id="jugeCollar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8E8E8"/>
+    </linearGradient>
+    <filter id="jugeShadow" x="-10%" y="-5%" width="120%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#2C3E50" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#jugeShadow)">
+    <!-- Robe — flowing black -->
+    <path d="M24 74 C18 100 14 140 18 195 L122 195 C126 140 122 100 116 74 Z" fill="url(#jugeRobe)" stroke="#0A0A0A" stroke-width="2"/>
+    <!-- Robe folds -->
+    <path d="M50 100 C48 140 44 170 40 195" stroke="#2A2A2A" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M70 90 C70 140 72 170 74 195" stroke="#2A2A2A" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M90 100 C92 140 96 170 100 195" stroke="#2A2A2A" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- White judicial collar / rabat -->
+    <path d="M52 74 L70 96 L88 74" fill="url(#jugeCollar)" stroke="#D5D5D5" stroke-width="1.5"/>
+    <rect x="62" y="86" width="16" height="22" rx="2" fill="#FFFFFF" stroke="#D5D5D5" stroke-width="1"/>
+    <!-- Shoulders -->
+    <path d="M24 74 C14 70 8 76 12 90 L28 86 Z" fill="#1A1A1A"/>
+    <path d="M116 74 C126 70 132 76 128 90 L112 86 Z" fill="#1A1A1A"/>
+    <!-- Left arm (holding gavel) -->
+    <path d="M12 90 C8 108 10 126 18 142" stroke="#0D0D0D" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- Gavel in left hand -->
+    <g transform="translate(4 136) rotate(-20)">
+      <rect x="0" y="4" width="6" height="32" rx="2" fill="#8B4513"/>
+      <rect x="-6" y="0" width="18" height="12" rx="3" fill="#5D3A1A" stroke="#3E2723" stroke-width="1.5"/>
+      <rect x="-4" y="2" width="14" height="2" rx="1" fill="#DAA520" opacity="0.6"/>
+    </g>
+    <!-- Right arm (resting on bench) -->
+    <path d="M128 90 C132 108 130 126 124 142" stroke="#0D0D0D" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="124" cy="142" r="7" fill="#FDDCAC"/>
+    <!-- Neck -->
+    <rect x="60" y="56" width="20" height="20" rx="5" fill="#FDDCAC"/>
+    <!-- Head -->
+    <ellipse cx="70" cy="38" rx="24" ry="28" fill="#FDDCAC"/>
+    <!-- Judicial wig — white/grey curls -->
+    <g fill="#E8E8E8" stroke="#CCCCCC" stroke-width="0.8">
+      <circle cx="46" cy="28" r="6"/>
+      <circle cx="56" cy="18" r="7"/>
+      <circle cx="70" cy="14" r="8"/>
+      <circle cx="84" cy="18" r="7"/>
+      <circle cx="94" cy="28" r="6"/>
+      <circle cx="48" cy="40" r="5"/>
+      <circle cx="92" cy="40" r="5"/>
+      <!-- Side curls hanging down -->
+      <ellipse cx="42" cy="50" rx="5" ry="8"/>
+      <ellipse cx="98" cy="50" rx="5" ry="8"/>
+      <circle cx="42" cy="62" r="4"/>
+      <circle cx="98" cy="62" r="4"/>
+    </g>
+    <!-- Stern face -->
+    <!-- Eyebrows — heavy, authoritative -->
+    <path d="M56 28 L64 26" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+    <path d="M76 26 L84 28" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <circle cx="60" cy="34" r="3" fill="#2C3E50"/>
+    <circle cx="80" cy="34" r="3" fill="#2C3E50"/>
+    <circle cx="59" cy="33" r="1" fill="#FFFFFF"/>
+    <circle cx="79" cy="33" r="1" fill="#FFFFFF"/>
+    <!-- Nose -->
+    <path d="M68 38 L70 44 L66 44" fill="none" stroke="#C9A07A" stroke-width="1.2"/>
+    <!-- Stern mouth (slight frown) -->
+    <path d="M60 50 C64 52 76 52 80 50" stroke="#A0705A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

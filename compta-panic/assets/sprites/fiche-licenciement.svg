@@ -1,0 +1,62 @@
+<!-- Fiche de Licenciement — document formel, en-tête officiel, tampons, lignes. 300×400 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <defs>
+    <linearGradient id="ficheHeader" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C3E50"/>
+      <stop offset="1" stop-color="#1A252F"/>
+    </linearGradient>
+    <filter id="ficheShadow" x="-5%" y="-3%" width="110%" height="106%">
+      <feDropShadow dx="2" dy="4" stdDeviation="5" flood-color="#2C3E50" flood-opacity="0.22"/>
+    </filter>
+    <filter id="stampBlur" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.5"/>
+    </filter>
+  </defs>
+  <g filter="url(#ficheShadow)">
+    <!-- Paper background with slight texture -->
+    <rect x="4" y="4" width="292" height="392" rx="4" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="2"/>
+    <!-- Paper fold corner -->
+    <path d="M254 4 L296 4 L296 46 Z" fill="#F4EEE0"/>
+    <path d="M254 4 L254 46 L296 46" fill="none" stroke="#D8D0C1" stroke-width="1.5"/>
+    <!-- Official header bar -->
+    <rect x="20" y="20" width="260" height="48" rx="4" fill="url(#ficheHeader)"/>
+    <text x="150" y="40" text-anchor="middle" font-family="Nunito, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="3">RÉPUBLIQUE FRANÇAISE</text>
+    <text x="150" y="56" text-anchor="middle" font-family="Nunito, sans-serif" font-size="9" fill="#BDC3C7" letter-spacing="1">Ministère du Travail</text>
+    <!-- Horizontal rule -->
+    <line x1="20" y1="78" x2="280" y2="78" stroke="#C0392B" stroke-width="2"/>
+    <!-- Title -->
+    <text x="150" y="102" text-anchor="middle" font-family="Courier Prime, monospace" font-size="16" font-weight="bold" fill="#C0392B" letter-spacing="2">FICHE DE LICENCIEMENT</text>
+    <!-- Subtitle -->
+    <text x="150" y="120" text-anchor="middle" font-family="Courier Prime, monospace" font-size="9" fill="#7F8C8D">Article L.1232-6 du Code du travail</text>
+    <!-- Horizontal rule -->
+    <line x1="20" y1="132" x2="280" y2="132" stroke="#D8D0C1" stroke-width="1"/>
+    <!-- Form fields -->
+    <text x="30" y="156" font-family="Courier Prime, monospace" font-size="10" fill="#2C3E50">Nom de l'employé :</text>
+    <line x1="148" y1="156" x2="270" y2="156" stroke="#7F8C8D" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="30" y="178" font-family="Courier Prime, monospace" font-size="10" fill="#2C3E50">Poste occupé :</text>
+    <line x1="130" y1="178" x2="270" y2="178" stroke="#7F8C8D" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="30" y="200" font-family="Courier Prime, monospace" font-size="10" fill="#2C3E50">Date d'entrée :</text>
+    <line x1="132" y1="200" x2="270" y2="200" stroke="#7F8C8D" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="30" y="222" font-family="Courier Prime, monospace" font-size="10" fill="#2C3E50">Motif du licenciement :</text>
+    <line x1="176" y1="222" x2="270" y2="222" stroke="#7F8C8D" stroke-width="1" stroke-dasharray="3,2"/>
+    <!-- Body text lines -->
+    <line x1="30" y1="248" x2="270" y2="248" stroke="#D8D0C1" stroke-width="1.5"/>
+    <line x1="30" y1="266" x2="270" y2="266" stroke="#D8D0C1" stroke-width="1.5"/>
+    <line x1="30" y1="284" x2="270" y2="284" stroke="#D8D0C1" stroke-width="1.5"/>
+    <line x1="30" y1="302" x2="220" y2="302" stroke="#D8D0C1" stroke-width="1.5"/>
+    <!-- Signature area -->
+    <text x="30" y="330" font-family="Courier Prime, monospace" font-size="9" fill="#7F8C8D">Signature de l'employeur :</text>
+    <line x1="30" y1="356" x2="130" y2="356" stroke="#2C3E50" stroke-width="1"/>
+    <text x="170" y="330" font-family="Courier Prime, monospace" font-size="9" fill="#7F8C8D">Signature de l'employé :</text>
+    <line x1="170" y1="356" x2="270" y2="356" stroke="#2C3E50" stroke-width="1"/>
+    <!-- Official stamp area (bottom-right) -->
+    <g transform="translate(200 340) rotate(-12)" filter="url(#stampBlur)">
+      <circle cx="30" cy="30" r="28" fill="none" stroke="#C0392B" stroke-width="3" stroke-dasharray="4,2" opacity="0.7"/>
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#C0392B" stroke-width="1.5" opacity="0.5"/>
+      <text x="30" y="26" text-anchor="middle" font-family="Courier Prime, monospace" font-size="7" font-weight="bold" fill="#C0392B" opacity="0.7">LICENCIÉ</text>
+      <text x="30" y="37" text-anchor="middle" font-family="Courier Prime, monospace" font-size="6" fill="#C0392B" opacity="0.6">ARTICLE L.1232</text>
+    </g>
+    <!-- Date stamp -->
+    <text x="30" y="380" font-family="Courier Prime, monospace" font-size="8" fill="#7F8C8D">Fait à Paris, le ____/____/20__</text>
+  </g>
+</svg>

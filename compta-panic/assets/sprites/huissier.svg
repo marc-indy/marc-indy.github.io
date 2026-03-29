@@ -1,0 +1,74 @@
+<!-- Huissier — silhouette imposante dans l'embrasure de porte, manteau long, chapeau. 100×200 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 200" width="100" height="200">
+  <defs>
+    <linearGradient id="huiCoat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1A2E"/>
+      <stop offset="1" stop-color="#16213E"/>
+    </linearGradient>
+    <linearGradient id="doorFrame" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B4513"/>
+      <stop offset="0.5" stop-color="#A0522D"/>
+      <stop offset="1" stop-color="#8B4513"/>
+    </linearGradient>
+    <filter id="huiShadow" x="-10%" y="-5%" width="120%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Door frame -->
+  <rect x="0" y="0" width="12" height="200" fill="url(#doorFrame)" stroke="#5D2E0C" stroke-width="1.5"/>
+  <rect x="88" y="0" width="12" height="200" fill="url(#doorFrame)" stroke="#5D2E0C" stroke-width="1.5"/>
+  <rect x="0" y="0" width="100" height="10" fill="url(#doorFrame)" stroke="#5D2E0C" stroke-width="1.5"/>
+  <!-- Dark interior behind -->
+  <rect x="12" y="10" width="76" height="190" fill="#0D0D1A" opacity="0.85"/>
+  <!-- Imposing figure -->
+  <g filter="url(#huiShadow)">
+    <!-- Shoes — large, heavy -->
+    <ellipse cx="36" cy="194" rx="14" ry="6" fill="#0A0A14"/>
+    <ellipse cx="64" cy="194" rx="14" ry="6" fill="#0A0A14"/>
+    <!-- Legs -->
+    <rect x="28" y="140" width="16" height="56" rx="4" fill="#1A1A2E"/>
+    <rect x="56" y="140" width="16" height="56" rx="4" fill="#1A1A2E"/>
+    <!-- Long coat body — imposing width -->
+    <path d="M18 60 C14 80 12 110 16 145 L84 145 C88 110 86 80 82 60 Z" fill="url(#huiCoat)" stroke="#0D0D1A" stroke-width="2"/>
+    <!-- Coat flaps -->
+    <path d="M16 145 C18 160 22 175 28 195 L42 195 L40 145 Z" fill="#16213E" stroke="#0D0D1A" stroke-width="1"/>
+    <path d="M84 145 C82 160 78 175 72 195 L58 195 L60 145 Z" fill="#16213E" stroke="#0D0D1A" stroke-width="1"/>
+    <!-- Lapels -->
+    <path d="M38 60 L50 80 L62 60" fill="#1A1A2E" stroke="#2C3442" stroke-width="1.5"/>
+    <!-- White shirt peek -->
+    <rect x="44" y="66" width="12" height="20" rx="1" fill="#ECF0F1" opacity="0.6"/>
+    <!-- Shoulders — wide, menacing -->
+    <path d="M18 60 C10 56 6 62 8 74 L20 70 Z" fill="url(#huiCoat)" stroke="#0D0D1A" stroke-width="1"/>
+    <path d="M82 60 C90 56 94 62 92 74 L80 70 Z" fill="url(#huiCoat)" stroke="#0D0D1A" stroke-width="1"/>
+    <!-- Arms -->
+    <path d="M8 74 C6 92 8 110 14 130" stroke="#1A1A2E" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M92 74 C94 92 92 110 86 130" stroke="#1A1A2E" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- Gloved hands -->
+    <circle cx="14" cy="130" r="7" fill="#1A1A1A"/>
+    <circle cx="86" cy="130" r="7" fill="#1A1A1A"/>
+    <!-- Document in left hand -->
+    <g transform="translate(2 118) rotate(-8)">
+      <rect width="20" height="28" rx="2" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1"/>
+      <line x1="4" y1="8" x2="16" y2="8" stroke="#BDB5A5" stroke-width="1.5"/>
+      <line x1="4" y1="13" x2="14" y2="13" stroke="#BDB5A5" stroke-width="1.5"/>
+      <line x1="4" y1="18" x2="12" y2="18" stroke="#BDB5A5" stroke-width="1.5"/>
+    </g>
+    <!-- Neck -->
+    <rect x="42" y="46" width="16" height="16" rx="4" fill="#FDDCAC"/>
+    <!-- Head -->
+    <ellipse cx="50" cy="34" rx="20" ry="22" fill="#FDDCAC"/>
+    <!-- Hat — large brim fedora -->
+    <ellipse cx="50" cy="16" rx="28" ry="6" fill="#0D0D1A"/>
+    <rect x="32" y="4" width="36" height="14" rx="4" fill="#1A1A2E" stroke="#0D0D1A" stroke-width="1.5"/>
+    <rect x="34" y="14" width="32" height="4" rx="1" fill="#2C3442"/>
+    <!-- Shadowed face — stern -->
+    <!-- Eyes barely visible under hat shadow -->
+    <rect x="14" y="16" width="72" height="14" fill="#000000" opacity="0.2" rx="4"/>
+    <circle cx="42" cy="30" r="2.5" fill="#2C3E50"/>
+    <circle cx="58" cy="30" r="2.5" fill="#2C3E50"/>
+    <circle cx="41" cy="29" r="0.8" fill="#FFFFFF"/>
+    <circle cx="57" cy="29" r="0.8" fill="#FFFFFF"/>
+    <!-- Heavy jaw / stern mouth -->
+    <line x1="42" y1="42" x2="58" y2="42" stroke="#A0705A" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

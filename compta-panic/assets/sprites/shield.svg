@@ -1,0 +1,15 @@
+<!-- Bouclier — icône protection client. 24×24 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="shieldFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3498DB"/>
+      <stop offset="1" stop-color="#2175A5"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M12 2 L4 6 L4 12 C4 17 7 21 12 23 C17 21 20 17 20 12 L20 6 Z" fill="url(#shieldFill)" stroke="#2C3E50" stroke-width="2"/>
+  <!-- Inner border -->
+  <path d="M12 5 L7 8 L7 12 C7 16 9 19 12 20.5 C15 19 17 16 17 12 L17 8 Z" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <!-- Checkmark -->
+  <path d="M8.5 12 L11 14.5 L16 9" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

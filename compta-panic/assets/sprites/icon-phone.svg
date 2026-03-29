@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Ringing phone icon -->
+  <path d="M8,4 L13,4 L15,10 L12,13 C14,17 15,18 19,20 L22,17 L28,19 L28,24 C28,26 26,28 24,28 C16,28 4,16 4,8 C4,6 6,4 8,4 Z" fill="#FFFFFF" stroke="#2C3E50" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Ringing arcs -->
+  <path d="M22,3 C25,4 27,7 27,10" fill="none" stroke="#E67E22" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20,6 C22,7 23,8 23,10" fill="none" stroke="#E67E22" stroke-width="2" stroke-linecap="round"/>
+</svg>

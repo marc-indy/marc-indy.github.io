@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" width="320" height="48">
+  <rect x="4" y="0" width="312" height="48" rx="16" fill="#FBF7EF" stroke="#DCCFBC" stroke-width="1.5"/>
+  <rect x="4" y="14" width="312" height="34" fill="#FBF7EF"/>
+  <path d="M16 10 H106" stroke="#FFFFFF" stroke-width="3" opacity="0.65" stroke-linecap="round"/>
+  <path d="M18 39 H302" stroke="#DED3C2" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+  <circle cx="30" cy="24" r="8" fill="#E7DAC8"/>
+  <path d="M288 11 H300" stroke="#E7DAC8" stroke-width="4" stroke-linecap="round"/>
+  <text x="164" y="31" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" font-weight="800" fill="#7A7F82" letter-spacing="2.4">COMMUN</text>
+</svg>
